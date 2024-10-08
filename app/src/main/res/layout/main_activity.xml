@@ -39,18 +39,14 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="80dp"
-            android:src="@drawable/ic_launcher_foreground"
-            android:id="@+id/logo"/>
+
 
         <Button
             android:id="@+id/button_save"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="SAVE"
-            android:layout_toRightOf="@id/logo"
+
             android:layout_centerHorizontal="true"/>
     </RelativeLayout>
 
