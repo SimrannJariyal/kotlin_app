@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="button_increment">Increment</string>
+    <string name="Hello_World">Hello, World!</string>
+    <string name="hello_world">Hello_World</string>
+    <string name="app_name">My Application</string>
+    <string name="result">Result</string>
+    <string name="about_page">This is first every app page build by me...though i am not having much experience but i tried my best to represent the best..!</string>
+</resources>
