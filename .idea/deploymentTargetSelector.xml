@@ -4,11 +4,8 @@
     <selectionStates>
       <SelectionState runConfigName="app">
         <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2024-10-08T15:57:06.733507700Z">
+        <DropdownSelection timestamp="2024-10-09T02:54:01.208851500Z">
           <Target type="DEFAULT_BOOT">
-            <handle>
-              <DeviceId pluginId="FirebaseDirectAccess" identifier="reservation=projects/cloth-shop-5fc22/deviceSessions/session-14fk510b5fpv0" />
-            </handle>
             <template>
               <DeviceId pluginId="FirebaseDirectAccess" type="TEMPLATE" identifier="model_id=shiba/34" />
             </template>
