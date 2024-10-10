@@ -10,6 +10,10 @@
     <color name="blue_400">#42A5F5</color> <!-- Calming blue -->
     <color name="blue_600">#1E88E5</color> <!-- Darker blue -->
     <color name="green_300">#81C784</color> <!-- Soft green -->
-    <color name="green_500">#4CAF50</color> <!-- Deeper green -->
-
+    <color name="green_500">#4CAF50</color>
+    <color name="primary_background">#FFFFFF</color> <!-- White background -->
+    <color name="primary_text">#FFFFFF</color>
+    <color name="secondary_text">#E3E3E3</color>
+    <color name="button_color">#FFD600</color>
+    <color name="text_color_register">#FFFFFF</color>
 </resources>

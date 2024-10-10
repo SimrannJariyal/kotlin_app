@@ -46,6 +46,14 @@ class MainActivity : AppCompatActivity() {
             val password = editTextPassword.text.toString()
             registerUser(email, password)
         }
+
+//        val currentUser = auth.currentUser
+//        if (currentUser != null) {
+//            // User is already logged in, redirect to HomeActivity
+//            val intent = Intent(this, HomeActivity::class.java)
+//            startActivity(intent)
+//            finish() // Close the LoginActivity
+//        }
     }
 
     private fun registerUser(email: String, password: String) {
@@ -60,6 +68,8 @@ class MainActivity : AppCompatActivity() {
                 if (task.isSuccessful) {
                     // Registration successful
                     Toast.makeText(this, "Registration Successful", Toast.LENGTH_SHORT).show()
+                    val intent = Intent(this, LoginActivity::class.java)
+                    startActivity(intent)
                 } else {
                     // If registration fails, display a message to the user.
                     Toast.makeText(this, "Registration Failed: ${task.exception?.message}", Toast.LENGTH_SHORT).show()
